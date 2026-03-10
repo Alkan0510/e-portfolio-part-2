@@ -9,26 +9,26 @@ function showSection(sectionId) {
 	const ictLessonsQ3 = {
 	ictQ31: `
 	<div class="vertical">
-		<img class="output" src="ictq3\\q31a.jpg"><br>
-		<img class="output2" src="ictq3\\q31b.jpg">
+		<img class="output" src="./ictq3/q31a.jpg"><br>
+		<img class="output2" src="./ictq3/q31b.jpg">
 	</div>
 	`,
 	ictQ32: `
 	<div class="vertical">
-		<img class="output" src="ictq3\\q32b.jpg"><br>
-		<img class="output2" src="ictq3\\q32a.jpg">
+		<img class="output" src="./ictq3/q32b.jpg"><br>
+		<img class="output2" src="./ictq3/q32a.jpg">
 	</div>
 	`,
 	ictQ33: `
 	<div class="vertical">
-		<img class="output" src="ictq3\\q33a.jpg"><br>
-		<img class="output2" src="ictq3\\q33b.jpg">
+		<img class="output" src="./ictq3/q33a.jpg"><br>
+		<img class="output2" src="./ictq3/q33b.jpg">
 	</div>
 	`,
 	ictQ34: `
 	<div class="vertical">
-		<img class="output" src="ictq3\\q34a.jpg"><br>
-		<img class="output2" src="ictq3\\q34b.jpg">
+		<img class="output" src="./ictq3/q34a.jpg"><br>
+		<img class="output2" src="./ictq3/q34b.jpg">
 	</div>
 	`
 };
@@ -67,7 +67,7 @@ function showSection(sectionId) {
 						<li><p> Example: Photographer&apos;s portfolio</p></li>
 					</ul>
 				</div>
-				<img src="ictq4\\lesson1a.jpg" class="example">
+				<img src="./ictq4/lesson1a.jpg" class="example">
 				<div class="main">
 					<h1> Dynamic Website </h1>
 					<ul>
@@ -137,17 +137,17 @@ function showSection(sectionId) {
 			<h1> Head </h1>
 			<ul>
 				<li><p>Whenever the scripts are placed here, you are assured that they will be pre-loaded it means the scripts will be executed before anyone triggers an event. Scripts are ideally placed here are for functions calls</p></li>
-				<img src="ictq4\\lesson2a.jpg" class="example">
+				<img src="./ictq4/lesson2a.jpg" class="example">
 			</ul>
 			<h1> Body </h1>
 			<ul>
 				<li><p>Scripts that are placed here are executed when the page loads.</p></li>
-				<img src="ictq4\\lesson2b.jpg" class="example">
+				<img src="./ictq4/lesson2b.jpg" class="example">
 			</ul>
 			<h1> Head &amp; Body </h1>
 			<ul>
 				<li><p>You can place your script tags whenever and how many you want to.</p></li>
-				<img src="ictq4\\lesson2c.jpg" class="example">
+				<img src="./ictq4/lesson2c.jpg" class="example">
 			</ul>
 			<h1> External JavaScript </h1>
 			<ul>
@@ -155,7 +155,7 @@ function showSection(sectionId) {
 				<li><p><b>&lt;script type=&#750;text/JavaScript&#750; src=&#750;myJavaScript.js&#750;&gt;&lt;/script&gt;</b></p></li>
 				<li><p>The src attribute will point to the source of the JavaScript external file.  Take note that the JavaScript file does not contain the opening and closing script tags.</p></li>
 				<li><p>There are times when you want to add a statement to explain a set of codes, or when we want to omit certain codes for debugging purposes, this can be done by inserting a comment. For single comments, you can use two backlash symbols; for multiple line or block comments, start with a /* and end with a */</p></li>
-				<img src="ictq4\\lesson2d.jpg" class="example">
+				<img src="./ictq4/lesson2d.jpg" class="example">
 			</ul>
 		</ul>
 		<h1> What are the JavaScript Guidelines </h1>
@@ -253,7 +253,7 @@ function showSection(sectionId) {
 			</ul>
 		</ul>
 		<h1> JavaScript Objects, Methods, Properties and Events </h1>
-		<img src="ictq4\\lesson3a.jpg" class="example">
+		<img src="./ictq4/lesson3a.jpg" class="example">
 		<ul>
 			<h1> Structure of the code snippet </h1>
 			<ul>
@@ -539,10 +539,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson1a.jpg">
+				<img class="exampleAP" src="./apq4/lesson1a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson1b.jpg">
+				<img class="exampleAP" src="./apq4/lesson1b.jpg">
 			</div>
 		</div>
 	</div>
@@ -587,10 +587,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson2a.jpg">
+				<img class="exampleAP" src="./apq4/lesson2a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson2b.jpg">
+				<img class="exampleAP" src="./apq4/lesson2b.jpg">
 			</div>
 		</div>
 	</div>
@@ -617,10 +617,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson3a.jpg">
+				<img class="exampleAP" src="./apq4/lesson3a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson3b.jpg">
+				<img class="exampleAP" src="./apq4/lesson3b.jpg">
 			</div>
 		</div>
 	</div>
@@ -646,10 +646,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson4a.jpg">
+				<img class="exampleAP" src="./apq4/lesson4a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson4b.jpg">
+				<img class="exampleAP" src="./apq4/lesson4b.jpg">
 			</div>
 		</div>
 	</div>
@@ -675,10 +675,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson5a.jpg">
+				<img class="exampleAP" src="./apq4/lesson5a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson5b.jpg">
+				<img class="exampleAP" src="./apq4/lesson5b.jpg">
 			</div>
 		</div>
 	</div>
@@ -704,10 +704,10 @@ function showSection(sectionId) {
 		</ul>
 		<div class="horizontal">
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson6a.jpg">
+				<img class="exampleAP" src="./apq4/lesson6a.jpg">
 			</div>
 			<div class="main">
-				<img class="exampleAP" src="apq4\\lesson6b.jpg">
+				<img class="exampleAP" src="./apq4/lesson6b.jpg">
 			</div>
 		</div>
 	</div>
