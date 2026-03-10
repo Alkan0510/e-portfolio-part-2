@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<title> Alkan's E-PORTFOLIO P2 </title>
+		<link rel="stylesheet" href="portfolio.css">
+	</head>
+	<body>
+		<h1> ALKAN'S E-PORTFOLIO PART 2 </h1>
+		<nav>
+			<img onclick="showSection('home')" class="logo" src="nav\home_slime.jpg">
+			<button onclick="showSection('ictQ3')"><p>ICT Outputs Q3</p></button>
+			<button onclick="showSection('ictQ4')"><p>ICT Lessons Q4</p></button>
+			<button onclick="showSection('ap')"><p>AP Lessons Q4</p></button>
+			<button onclick="showSection('events')"><p>Q3/Q4 Events</p></button>
+			<button onclick="showSection('noli')"><p>Noli Me Tangere</p></button>
+			<a href="https://alkan0510.github.io/e-portfolio-part1/"><button><p>Go Back to P1 </p></button></a>
+		</nav>
+		<section id="home" class="active">
+			<div class="main-section">
+				<div class="intro">
+					<img src="home\alger.jpg" class="alger">
+				</div>
+				<div class="vertical">
+				<div class="introduction">
+					<p> Hello, it's me again, Alger Kyan P. David, back on another performance task where we'll be continuing this e-portfolio for Quarter 3 and 4 this time. Seeing everyone's portfolio back on the 2nd Quarter really motivated me to do more on design as I am not that quite of an artistic person. But I like the minimalist touch so, yeah. This part will contain lessons in ICT and AP for the 3rd and 4th Quarter. And yes, the Noli Me Tangere has a dedicated section because it's the first play we've done in our batch because back then, the post-pandemic really messed things up and we weren't able to perform plays when we were Grade 7 and 8. Try refreshing the page, you'll be on the last state you were in before you reloaded! Here are some of the photos I took to fill the gap in the bottom. </p>
+				</div>
+				<div class="horizontalAnimal">
+					<img class="animal" src="home\cat1.jpg">
+					<img class="animal" src="home\cat2.jpg">
+					<img class="animal" src="home\dog1.jpg">
+					<img class="animal" src="home\alger1.jpg">
+					<img class="animal" src="home\andjhay.jpg">
+				</div>
+				</div>
+			</div>
+		</section>
+		<section id="ictQ3">
+			<h1 class="h1"> ICT Outputs Q3 <br> Main Page</h1>
+		<div class="main-section1">
+			<div class="content">
+				<p> <h2> Table of Content: <h2> </p>
+				<a onclick="loadICTLessonQ3('ictQ31')"> <button> <p> Formatting Text with CSS II </p></button></a><br>
+				<a onclick="loadICTLessonQ3('ictQ32')"> <button> <p> Formatting Layout with CSS I </p></button> </a><br>
+				<a onclick="loadICTLessonQ3('ictQ33')"> <button> <p> Formatting Layout with CSS II </p></button> </a><br>
+				<a onclick="loadICTLessonQ3('ictQ34')"> <button> <p> Formatting Border and Table </p></button> </a>
+			</div>
+			<div class="introduction">
+				<p>Hello, This is the section for the Q3 Outputs for ICT, On the left as usual is the table of contents. Simply click on the desired lesson output and it will pop up on the bottom of this text because this section only requires me to show an output from only 3 lessons. </p>
+			</div>
+		</div>
+		<div id="ict-lesson-outputQ3" class="lesson-content"></div>
+		</section>
+		<section id="ictQ4">
+			<h1 class="h1"> ICT Lessons Q4 <br> Main Page</h1>
+		<div class="main-section1">
+			<div class="content">
+				<p> <h2> Table of Content: <h2> </p>
+				<a onclick="loadICTLessonQ4('ictQ41')"> <button> <p> JavaScript Introduction </p></button></a><br>
+				<a onclick="loadICTLessonQ4('ictQ42')"> <button> <p> Lesson 2 </p></button> </a><br>
+				<a onclick="loadICTLessonQ4('ictQ43')"> <button> <p> Lesson 3 </p></button> </a><br>
+				<a onclick="loadICTLessonQ4('ictQ44')"> <button> <p> Lesson 4 </p></button> </a>
+			</div>
+			<div class="introduction">
+				<p>Hello, This is the section for the Q4 Lessons in ICT, On the left as usual is the table of contents. Simply click on the desired lesson output and it will pop up on the bottom of this text. This quarter we started dwelling on the programming language: Javascript. I love this language because it's one of the programming langueages where you really have to understand the structure of each line to know what, where, and how it works. Plus, it's both front-end and back-end so, good for me. We have 5 lessons but as of 10/03/2026, lesson 5's pdf isn't sent and taught yet, so you'll never see it here, unless I get motivated enough to update this even after the e-portfolio. I can finally hide my JavaScript on an external file instead of here straight in the HTML file using &lt;script&gt;.</p>
+			</div>
+		</div>
+		<div id="ict-lessons-Q4" class="lesson-content"></div>
+		</section>
+		<section id="ap">
+			<h1 class="h1"> AP Lessons Q4 <br> Main Page</h1>
+		<div class="main-section1">
+			<div class="content">
+				<p> <h2> Table of Content: <h2> </p>
+				<a onclick="loadAPLesson('apLesson1')"> <button> <p> Pambansang Kaunlaran </p></button></a><br>
+				<a onclick="loadAPLesson('apLesson2')"> <button> <p> Sektor ng Agrikultura </p></button> </a><br>
+				<a onclick="loadAPLesson('apLesson3')"> <button> <p> Sektor ng Industriya </p></button> </a><br>
+				<a onclick="loadAPLesson('apLesson4')"> <button> <p> Sektor ng Paglilingkod </p></button> </a><br>
+				<a onclick="loadAPLesson('apLesson5')"> <button> <p> Impormal na Sektor </p></button> </a><br>
+				<a onclick="loadAPLesson('apLesson6')"> <button> <p> Patakarang Panlabas </p></button> </a>
+			</div>
+			<div class="introduction">
+				<p>Hello, This is the section for the Q4 Lessons in ICT, On the left as usual is the table of contents. Simply click on the desired lesson output and it will pop up on the bottom of this text. This quarter we started dwelling on the programming language: Javascript. I love this language because it's one of the programming langueages where you really have to understand the structure of each line to know what, where, and how it works. Plus, it's both front-end and back-end so, good for me. We have 5 lessons but as of 10/03/2026, lesson 5's pdf isn't sent and taught yet, so you'll never see it here, unless I get motivated enough to update this even after the e-portfolio. I can finally hide my JavaScript on an external file instead of here straight in the HTML file using &lt;script&gt;.</p>
+			</div>
+		</div>
+		<div id="ap-lesson-output" class="lesson-content"></div>
+		</section>
+		<section id="events">
+			<div class="verticalevents">
+			<h1> MVP </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\mvp1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\mvp2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\mvp.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+			<div class="verticalevents">
+			<h1> VPOP </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\vpop1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\vpop2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\vpop.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+			<div class="verticalevents">
+			<h1> MATH IDOL </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\mathidol1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\mathidol2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\mathidol.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+			<div class="verticalevents">
+			<h1> FOLK DANCE </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\folkdance1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\folkdance2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\folkdance.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+			<div class="verticalevents">
+			<h1> BOTB </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\botb1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\botb2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\botb.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+			<div class="verticalevents">
+			<h1> STREET DANCE </h1>
+				<div class="horizontal">
+					<div class="main">
+						<img src="events\botb1.jpg" class="animal">
+					</div>
+					<div class="main">
+						<img src="events\botb2.jpg" class="animal">
+					</div>
+				</div>
+				<video width="400px" height="300px" controls src="events\streetdance.mp4" class="eventsmp4">
+				<p> </p>
+			</div>
+		</section>
+		<section id="noli">
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Nei4ATe5M4Q?si=1oA_ZztrchX1FRqO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<p> If iframe doesn't work, watch <a href="https://youtu.be/Nei4ATe5M4Q">here</a>
+		</section>
+		<footer>
+			<hr>
+			<p class="footerp"> Alger Kyan P. David, 9-Fidelity &copy; 2025-2026 </p>
+		</footer>
+		<script src="portfolio.js"></script>
+	</body>
+</html>
