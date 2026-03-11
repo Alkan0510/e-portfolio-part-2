@@ -11,6 +11,13 @@ p {
 	font-size: 20px;
 }
 
+.pevents {
+border: solid 2px white;
+border-radius: 10px;
+background-color: maroon;
+padding: 50px;	
+}
+
 .footerp {
 text-align: center;
 text-shadow: 0px 0px 5px black;
@@ -20,6 +27,12 @@ h1 {
 	font-family: Montserrat;
 	text-align: center;
 	color: white;
+}
+
+.h1events {
+font-family: Montserrat;
+color: white;
+text-align: left;
 }
 
 h2 {
@@ -258,6 +271,21 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.horizontal1 {
+display: flex;
+align-items: left;
+gap: 50px;
+margin-bottom: 50px;
+}
+
+.horizontalevents {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+width: 400px;
+}
+
+
 ol {
 color: white;
 font-family: montserrat;
@@ -275,21 +303,19 @@ border: solid 2px white;
 .verticalevents {
 display: flex;
 flex-direction: column;
-margin-left: auto;
-margin-right: auto;
 border: solid 2px white;
 border-radius: 10px;
 background-color: maroon;
-margin-bottom: 50px;
+padding: 50px;
+align-items: flex-start;
 }
 
 .eventsmp4 {
+grid-column: span 2;
+width: 400px;
+height: auto;
 border-radius: 10px;
 border: solid 2px white;
-padding: 0px;
-display: flex;
-margin-left: auto;
-margin-right: auto;
 transition: all 0.5s ease;
 }
 
@@ -315,4 +341,25 @@ left: 0;
 width: 100%;
 height: 100%;
 border: none;
+}
+
+.eventsjpg {
+width: 100%;
+aspect-ratio: 1 / 1;
+object-fit: cover;
+border-radius: 10px;
+border: solid 2px white;
+transition: all 0.5s ease;
+}
+
+.ulevents {
+background-color: maroon;
+border: solid 2px white;
+border-radius: 10px;
+padding: 50px;
+}
+
+.ulevents li{
+color: white;
+list-style-type: disc;
 }
