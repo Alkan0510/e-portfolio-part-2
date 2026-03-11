@@ -144,16 +144,18 @@ justify-content: center;
 }
 
 .horizontalAnimal {
-display: inline-flex;
+display: flex; 
 flex-direction: row;
+flex-wrap: wrap;
 justify-content: center;
-gap: 100px;
+gap: 20px; 
 }
 
 .animal {
 border-radius: 10px;
 border: solid 2px white;
-max-width: 218px;
+width: 200px;
+max-width: 100%;
 margin-top: 28px;
 transition: all 0.5s ease;
 }
