@@ -144,20 +144,18 @@ justify-content: center;
 }
 
 .horizontalAnimal {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 20px; 
+display: inline-flex;
+flex-direction: row;
+justify-content: center;
+gap: 100px;
 }
 
 .animal {
-    border-radius: 10px;
-    border: solid 2px white;
-    width: 200px; 
-    max-width: 100%; 
-    margin-top: 28px;
-    transition: all 0.5s ease;
+border-radius: 10px;
+border: solid 2px white;
+max-width: 218px;
+margin-top: 28px;
+transition: all 0.5s ease;
 }
 
 .animal:hover {
